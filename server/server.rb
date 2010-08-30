@@ -6,6 +6,8 @@ require 'active_record'
 require 'models/domain'
 require 'models/record'
 
+require 'server/helpers'
+
 # auth_token.rb
 # macro.rb
 #  macro_step.rb
@@ -17,6 +19,7 @@ require 'models/record'
 # zone_template.rb
 
 class Server < Sinatra::Base
+  helpers Sinatra::ServerHelpers
 
   configure do
     LOGGER = Logger.new("sinatra.log") 
@@ -35,7 +38,7 @@ class Server < Sinatra::Base
   enable :logging
 
   before do
-    lookup_user
+    puts lookup_user
     dump_request
   end
         
@@ -65,39 +68,6 @@ class Server < Sinatra::Base
       "failed to update domain"
     end 
   end
- 
-  helpers do
-    def logger
-      LOGGER
-    end
-
-    def request_body
-      @request_body ||= request.body.read
-    end
-
-    def dump_request
-      logger.info [request.request_method, request.path].join(' ')
-      logger.info request_body
-    end
-
-    def dump_response
-      logger.info [response.request_method, request.path].join(' ')
-      logger.info request_body
-    end
-    
-    def parse_body
-      JSON.parse(request_body)
-    end
-  
-    def jsonize(data)
-      if data.class == Array
-        data.collect{ |d| {d.class.to_s.downcase => d} }.to_json
-      else
-        { data.class.to_s.downcase => data }.to_json
-      end
-    end
-  end
-
 end
 
 Server.run!

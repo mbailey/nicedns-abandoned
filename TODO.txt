@@ -1,0 +1,14 @@
+TODO 
+
+* debug output on server
+* validate request using DB
+* restrict operations to valid users (Domain#update)
+* report errors back to client
+* create new domains
+* list, view, update, create records
+
+# Later
+
+* validate requests using redis
+  - fast denial of bad requests without hitting DB 
+  * deny requests from IP with too many failed requests in timeframe

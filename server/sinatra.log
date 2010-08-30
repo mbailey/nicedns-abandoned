@@ -1,0 +1,223 @@
+# Logfile created on Sun Aug 29 21:41:52 +1000 2010 by logger.rb
+Oh yeah!
+config.ru:14: undefined method `application' for Sinatra:Module (NoMethodError)
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/builder.rb:46:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1
+/domains
+config.ru:14: undefined method `application' for Sinatra:Module (NoMethodError)
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/builder.rb:46:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1
+/domains
+/domains
+/domains
+/domains
+/domains/1
+/domains/2
+GET/domains/2
+GET /domains/2
+GET /domains/2
+
+GET /domains/2
+
+PUT /domains/2
+{"domain":{"name":"yes","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/25 01:14:37 +1000","id":2,"type":"NATIVE"}}
+GET /domains/2
+
+PUT /domains/2
+{"domain":{"name":"yes","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/25 01:14:37 +1000","id":2,"type":"NATIVE"}}
+PUT /domains/2
+{"domain":{"name":"yes","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/25 01:14:37 +1000","id":2,"type":"NATIVE"}}
+PUT /domains/2
+{"domain":{"name":"yes","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/25 01:14:37 +1000","id":2,"type":"NATIVE"}}
+PUT /domains/2
+{"domain"=>{"name"=>"yes", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/25 01:14:37 +1000", "id"=>2, "type"=>"NATIVE"}}
+GET /domains/2
+{"domain"=>{"name"=>"yes", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 21:59:01 +1000", "id"=>2, "type"=>"NATIVE"}}
+POST /domains
+POST /domains
+POST /domains
+{"domain":{"name":"fredg"}}
+POST /domains
+{"domain":{"name":"fredg"}}
+GET /domains
+
+GET /domains
+
+GET /domains
+
+GET /domains/2
+
+PUT /domains/2
+{"domain":{"name":"yayya","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/29 21:59:01 +1000","id":2,"type":"NATIVE"}}
+{"domain"=>{"name"=>"yayya", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 21:59:01 +1000", "id"=>2, "type"=>"NATIVE"}}
+GET /domains/2
+
+GET /domains/2
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"Basic Og==", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+GET /domains/2
+
+{nil=>"CGI/1.1"}
+GET /domains/2
+
+{nil=>"CGI/1.1"}
+PUT /domains/2
+{"domain":{"name":"yayya","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/29 23:16:04 +1000","id":2,"type":"NATIVE"}}
+{"domain"=>{"name"=>"yayya", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 23:16:04 +1000", "id"=>2, "type"=>"NATIVE"}}
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"Basic Og==", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+PUT /domains/2
+{"domain":{"name":"yayya","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/29 23:16:04 +1000","id":2,"type":"NATIVE"}}
+{"domain"=>{"name"=>"yayya", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 23:16:04 +1000", "id"=>2, "type"=>"NATIVE"}}
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"Basic Og==", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+PUT /domains/2
+{"domain":{"name":"yayya","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/29 23:16:04 +1000","id":2,"type":"NATIVE"}}
+{"domain"=>{"name"=>"yayya", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 23:16:04 +1000", "id"=>2, "type"=>"NATIVE"}}
+{"HTTP_HOST"=>"localhost:4567", "HTTP_ACCEPT"=>"*/*, application/json", "SERVER_NAME"=>"localhost", "REQUEST_PATH"=>"/", "rack.url_scheme"=>"http", "REMOTE_HOST"=>"localhost", "rack.errors"=>#<IO:0x1b419b8>, "SERVER_PROTOCOL"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "rack.version"=>[1, 1], "rack.run_once"=>false, "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)", "REMOTE_ADDR"=>"127.0.0.1", "PATH_INFO"=>"/domains/2", "HTTP_AUTHORIZATION"=>"Basic Og==", "SCRIPT_NAME"=>"", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>true, "rack.multiprocess"=>false, "REQUEST_URI"=>"http://localhost:4567/domains/2", "rack.request.query_hash"=>{}, "SERVER_PORT"=>"4567", "REQUEST_METHOD"=>"GET", "rack.request.query_string"=>"", "rack.input"=>#<StringIO:0x393e9e8>, "HTTP_CONNECTION"=>"close", "QUERY_STRING"=>"", "GATEWAY_INTERFACE"=>"CGI/1.1"}
+GET /domains/2
+
+GET /domains/2
+
+GET /domains/2
+
+GET /domains
+
+GET /domains
+
+GET /domains
+
+GET /domains
+
+{"HTTP_HOST"=>"localhost:4567", "HTTP_ACCEPT"=>"*/*, application/json", "SERVER_NAME"=>"localhost", "REQUEST_PATH"=>"/", "rack.url_scheme"=>"http", "REMOTE_HOST"=>"localhost", "rack.errors"=>#<IO:0xeaa9c0>, "SERVER_PROTOCOL"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "rack.version"=>[1, 1], "rack.run_once"=>false, "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)", "REMOTE_ADDR"=>"127.0.0.1", "PATH_INFO"=>"/domains", "HTTP_AUTHORIZATION"=>"Brandy", "SCRIPT_NAME"=>"", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>true, "rack.multiprocess"=>false, "REQUEST_URI"=>"http://localhost:4567/domains", "rack.request.query_hash"=>{}, "SERVER_PORT"=>"4567", "REQUEST_METHOD"=>"GET", "rack.request.query_string"=>"", "rack.input"=>#<StringIO:0x2ca8210>, "HTTP_CONNECTION"=>"close", "QUERY_STRING"=>"", "GATEWAY_INTERFACE"=>"CGI/1.1"}
+GET /domains
+
+{"HTTP_HOST"=>"localhost:4567", "HTTP_ACCEPT"=>"*/*, application/json", "SERVER_NAME"=>"localhost", "REQUEST_PATH"=>"/", "rack.url_scheme"=>"http", "REMOTE_HOST"=>"localhost", "rack.errors"=>#<IO:0xeaa9c0>, "SERVER_PROTOCOL"=>"HTTP/1.1", "CONTENT_TYPE"=>"application/json", "rack.version"=>[1, 1], "rack.run_once"=>false, "SERVER_SOFTWARE"=>"WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)", "REMOTE_ADDR"=>"127.0.0.1", "PATH_INFO"=>"/domains", "HTTP_AUTHORIZATION"=>"NiceHOST 123:ABC", "SCRIPT_NAME"=>"", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>true, "rack.multiprocess"=>false, "REQUEST_URI"=>"http://localhost:4567/domains", "rack.request.query_hash"=>{}, "SERVER_PORT"=>"4567", "REQUEST_METHOD"=>"GET", "rack.request.query_string"=>"", "rack.input"=>#<StringIO:0x2c538c8>, "HTTP_CONNECTION"=>"close", "QUERY_STRING"=>"", "GATEWAY_INTERFACE"=>"CGI/1.1"}
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+Request Auth: NiceHOST 123:ABC
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+Request Auth: "NiceHOST 123:ABC"
+GET /domains
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+Sun Aug 29 23:58:59 +1000 2010 GET /domains
+Request Auth: "NiceHOST 123:ABC"
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+nil
+GET /domains
+Request Auth: "NiceHOST 123:ABC"
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+nil
+GET /domains
+Request Auth: "NiceHOST 123:ABC"
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+nil
+GET /domains
+Request Auth: "NiceHOST 123:ABC"
+
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains
+Request Auth: "NiceHOST 123:ABC"
+{"accept"=>"*/*, application/json", "connection"=>"close", "authorization"=>"NiceHOST 123:ABC", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: ""
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 14:49:21 +1000 2010", "authorization"=>"", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: ""
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:14:37 +1000 2010", "authorization"=>"", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: ""
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:16:35 +1000 2010", "authorization"=>"", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: ""
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:17:02 +1000 2010", "authorization"=>"", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "not present"
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:31:08 +1000 2010", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "not present"
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:37:21 +1000 2010", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "XqwsZUeRk6biVgo9fdx3G0ECTDQ="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:45:51 +1000 2010", "authorization"=>"XqwsZUeRk6biVgo9fdx3G0ECTDQ=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "IR1kmn89RgfDxsvc0aOR09g3MTg="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:45:55 +1000 2010", "authorization"=>"IR1kmn89RgfDxsvc0aOR09g3MTg=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "X7ZnxNF/CD3leE0xhU58+mtgVeA="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:45:59 +1000 2010", "authorization"=>"X7ZnxNF/CD3leE0xhU58+mtgVeA=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "+OKdGmqk+jNbXAv31Sd8g3CYtlk="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:46:09 +1000 2010", "authorization"=>"+OKdGmqk+jNbXAv31Sd8g3CYtlk=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "dxHCbjFwz9f5xGymH3Epqj7Ip68="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 15:46:14 +1000 2010", "authorization"=>"dxHCbjFwz9f5xGymH3Epqj7Ip68=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "hY3PSOCSHGFBq9fJ1aGD0I+S68M="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:08:19 +1000 2010", "authorization"=>"hY3PSOCSHGFBq9fJ1aGD0I+S68M=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "DH7oleYMfqSaSs32dRLMqeix5ho="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:10:11 +1000 2010", "authorization"=>"DH7oleYMfqSaSs32dRLMqeix5ho=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "fIpka2zyMBuuXfNuRzz2bUVfzEc="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:10:22 +1000 2010", "authorization"=>"fIpka2zyMBuuXfNuRzz2bUVfzEc=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+PUT /domains/2
+Request Auth: "vfcfVRmCnuMQjV0EIrqAqExfpx4="
+{"domain":{"name":"happy","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/29 23:16:04 +1000","id":2,"type":"NATIVE"}}
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:10:35 +1000 2010", "authorization"=>"vfcfVRmCnuMQjV0EIrqAqExfpx4=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+{"domain"=>{"name"=>"happy", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/29 23:16:04 +1000", "id"=>2, "type"=>"NATIVE"}}
+
+GET /domains/2
+Request Auth: "rUZ9SilQs/pSch2hz9MwdVFyNZk="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:12:39 +1000 2010", "authorization"=>"rUZ9SilQs/pSch2hz9MwdVFyNZk=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+PUT /domains/2
+Request Auth: "2ZY3uee5CPFsbhbvei+NqXKpws8="
+{"domain":{"name":"brandy","ttl":234311,"created_at":"2010/08/19 14:22:19 +1000","updated_at":"2010/08/30 16:10:40 +1000","id":2,"type":"NATIVE"}}
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:12:53 +1000 2010", "authorization"=>"2ZY3uee5CPFsbhbvei+NqXKpws8=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+{"domain"=>{"name"=>"brandy", "created_at"=>"2010/08/19 14:22:19 +1000", "ttl"=>234311, "updated_at"=>"2010/08/30 16:10:40 +1000", "id"=>2, "type"=>"NATIVE"}}
+
+GET /domains/2
+Request Auth: "7mhkvMWNnOZrPL5F1cu2bsX9ZW0="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:13:30 +1000 2010", "authorization"=>"7mhkvMWNnOZrPL5F1cu2bsX9ZW0=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+
+GET /domains/2
+Request Auth: "DAy8lle+aAAntZllmVLG/GDrfPg="
+{"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:13:53 +1000 2010", "authorization"=>"DAy8lle+aAAntZllmVLG/GDrfPg=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}

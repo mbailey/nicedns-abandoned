@@ -3,16 +3,21 @@
 DEBUG = true
 
 require 'rubygems'
+require 'openssl'
+require 'base64'
+require 'digest/sha1'
 require 'json'
 require 'uri'
 require 'net/http'
+require 'net/https'
 require 'time'
+require 'uri'
 
-require 'client/request'
-require 'client/errors'
-require 'client/base'
-require 'client/domain'
-require 'client/record'
+require 'nice_dns/request'
+require 'nice_dns/errors'
+require 'nice_dns/base'
+require 'nice_dns/domain'
+require 'nice_dns/record'
 
 module Client
   VERSION = '1.0.0'
