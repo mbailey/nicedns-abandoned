@@ -1,3 +1,4 @@
+require 'digest/md5'
 module Client
   class Request
     
@@ -24,19 +25,27 @@ module Client
     end
 
     def rest_desc(method, uri, headers)
-      "#{method}\n" +
-      "#{headers['Content-MD5']}\n" +
-      "#{headers['Content-Type']}\n" +
-      "#{headers['Date']}\n"+
+      "#{method.to_s.upcase}\n" +
+      "#{headers['content-md5']}\n" +
+      "#{headers['content-type']}\n" +
+      "#{headers['date']}\n"+
       "#{uri}"
     end
 
     def sign(request_description)
       digest_generator = ::OpenSSL::Digest::Digest.new('sha1')
       digest = ::OpenSSL::HMAC.digest(digest_generator,
-                                    @nws_secret_key,
+                                    Client.apitoken,
                                     request_description)
       encode_base64(digest)
+    end
+
+    def dump_rest(uri, headers)
+      desc = rest_desc(@method, uri, headers)
+      <<-EOF
+REST DESC (MD5 #{Digest::MD5.hexdigest(desc)}
+#{desc}
+EOF
     end
 
     def dump_request(method, uri, headers, data=nil)
@@ -76,22 +85,24 @@ EOF
       headers
     end
 
-    # def sign_rest_description(
-    
     ## Make a request to the Client API using net/http. Data passed can be a hash or a string
     ## Hashes will be converted to JSON before being sent to the remote service.
     def make
       uri = URI.parse([Client.site, @path].join('/'))
 
-      data = self.data.to_json if self.data.is_a?(Hash) && self.data.respond_to?(:to_json)
       headers = {}
+      if self.data.is_a?(Hash) && self.data.respond_to?(:to_json)
+        data = self.data.to_json 
+        headers['content-type'] = "application/json"
+        headers['content-md5'] = Digest::MD5.hexdigest(data)
+      end
       # http_request.basic_auth(Client.username, Client.apitoken)
-      headers['Accept'] = "application/json"
-      headers['Content-Type'] = "application/json"
-      headers['Date'] = Time.now
+      headers['accept'] = "application/json"
+      headers['date'] = Time.now
 
-      headers['Authorization'] = sign(rest_desc(@method, uri.path, headers))
-      puts dump_request(@method, uri.path, headers, data)
+      headers['authorization'] = "NWS #{Client.username}:#{sign(rest_desc(@method, uri, headers))}"
+      puts dump_request(@method, uri, headers, data)
+      puts dump_rest(uri, headers)
 
       http_request = http_class.new(uri.path)
       headers.each{ |k,v| http_request.add_field(k, v) }

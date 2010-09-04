@@ -221,3 +221,2114 @@ Request Auth: "7mhkvMWNnOZrPL5F1cu2bsX9ZW0="
 GET /domains/2
 Request Auth: "DAy8lle+aAAntZllmVLG/GDrfPg="
 {"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Mon Aug 30 16:13:53 +1000 2010", "authorization"=>"DAy8lle+aAAntZllmVLG/GDrfPg=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+I, [2010-09-04T23:53:42.758415 #28453]  INFO -- : 
+I, [2010-09-04T23:53:42.758957 #28453]  INFO -- : GET /domains/2
+I, [2010-09-04T23:53:42.759109 #28453]  INFO -- : Request Auth: "28Ib8akLZXrhwoas7l4STa4T4ns="
+I, [2010-09-04T23:53:42.759170 #28453]  INFO -- : {"accept"=>"*/*, application/json", "connection"=>"close", "date"=>"Sat Sep 04 23:53:42 +1000 2010", "authorization"=>"28Ib8akLZXrhwoas7l4STa4T4ns=", "version"=>"HTTP/1.1", "host"=>"localhost:4567"}
+I, [2010-09-05T00:01:16.521796 #28743]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:01:16 +1000 2010
+  authorization: wRG22Azz3UjT8nqfWokCJsDxoxE=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:02:59.596764 #28743]  INFO -- : 
+REQUEST
+=======
+Method : POST
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:02:59 +1000 2010
+  authorization: qN1RmMyDUs4fxafHcEkuzaLfm2I=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"secondo"}}
+
+
+I, [2010-09-05T00:06:42.166767 #28743]  INFO -- : 
+REQUEST
+=======
+Method : POST
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:06:42 +1000 2010
+  authorization: RsPzvZGG650cOFIWULyqdfNmGmU=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"rfed"}}
+
+
+I, [2010-09-05T00:16:36.917019 #28743]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:16:36 +1000 2010
+  authorization: 4ZEn9Oo5RRZ6Sk45fcQNpfOyLRs=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:16:46.395995 #28743]  INFO -- : 
+REQUEST
+=======
+Method : POST
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:16:46 +1000 2010
+  authorization: h/xAlsRxNaF4H7GE98WTV5XmPH4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{}}
+
+
+I, [2010-09-05T00:17:09.746316 #28743]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:17:09 +1000 2010
+  authorization: niB1uUhPEvO9nexcsEAURvCknjE=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:17:50.796342 #28743]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:17:50 +1000 2010
+  authorization: OUEN+ohIsBxuYw/h5JtUlhgoPOk=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:19:40.051502 #29302]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:19:40 +1000 2010
+  authorization: /9dcZ4/5mPFQF9U6XrguamkeNrw=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:21:54.537535 #29334]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:21:54 +1000 2010
+  authorization: cCFQOATY8pq1Zv6pN8CB46p1mYE=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:22:08.166952 #29334]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:22:08 +1000 2010
+  authorization: HSilGWe6pBSrXhUVesvg2sBvHU0=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+
+I, [2010-09-05T00:22:08.167346 #29334]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T00:22:34.557211 #29334]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:22:34 +1000 2010
+  authorization: VIc0FiJ0sRDEuJAsOyTmWCtkXN4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+
+I, [2010-09-05T00:22:34.557608 #29334]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T00:22:59.556830 #29334]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:22:59 +1000 2010
+  authorization: 2VlNEPRShJpIKB6b++5lqCb+wP8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:23:09.860319 #29334]  INFO -- : 
+REQUEST
+=======
+Method : POST
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:23:09 +1000 2010
+  authorization: Keg+170AzyiWtReioY3DrJyjG/I=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{}}
+
+
+I, [2010-09-05T00:23:45.126616 #29334]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:23:45 +1000 2010
+  authorization: zUHeIWsqHIHDWDYNEQd2IBsBSGw=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:24:14.291644 #29497]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:24:14 +1000 2010
+  authorization: p+znkuaa1WUFeTCZ/9Jbf0ZwE2s=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:24:16.066178 #29497]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:24:16 +1000 2010
+  authorization: ln1gTAZkmQJmRou6LWoXcIAErh0=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:24:46.759410 #29498]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:24:46 +1000 2010
+  authorization: WDXHCEsjZLUFsq7CC1gY8ORxzgA=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:24:54.037241 #29498]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:24:54 +1000 2010
+  authorization: YaLQz6XMugFkBEhwFgQbg/EhyP8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+
+I, [2010-09-05T00:24:54.037722 #29498]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T00:27:51.337661 #29498]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:27:51 +1000 2010
+  authorization: NWS DpDP1Z1Ei3ECOpGf+E36l5Vr664=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:30:24.227707 #29498]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:30:24 +1000 2010
+  authorization: NWS test_user 6GK9W6cQ7hJ3XKAlgaH1gMic5Nw=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:31:07.957080 #29498]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:31:07 +1000 2010
+  authorization: NWS test_user:Sp+hQIIIH1ushcRC1Eoa5VsJZM4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:35:14.218598 #29932]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  DATE: Sun Sep 05 00:35:14 +1000 2010
+  AUTHORIZATION: NWS test_user:8Q98Umup3HFHrdhGWMqB8RMMg7w=
+  VERSION: HTTP/1.1
+  HOST: localhost:4567
+  CONNECTION: close
+  ACCEPT: */*, application/json
+Body:
+
+
+
+I, [2010-09-05T00:37:05.227899 #29932]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  DATE: Sun Sep 05 00:37:05 +1000 2010
+  AUTHORIZATION: NWS test_user:vyjteSA9UX1ZGKau97bcQUKCizI=
+  VERSION: HTTP/1.1
+  HOST: localhost:4567
+  CONNECTION: close
+  ACCEPT: */*, application/json
+Body:
+
+
+
+I, [2010-09-05T00:37:26.254043 #29939]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:37:26 +1000 2010
+  authorization: NWS test_user:vyjteSA9UX1ZGKau97bcQUKCizI=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+
+I, [2010-09-05T00:55:21.687568 #30273]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:55:21 +1000 2010
+  authorization: NWS test_user:vyjteSA9UX1ZGKau97bcQUKCizI=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+mjONggqD/55Kf9Q9VWzflNxw18k=
+
+
+I, [2010-09-05T00:58:17.756945 #30292]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 00:58:17 +1000 2010
+  authorization: NWS test_user:vyjteSA9UX1ZGKau97bcQUKCizI=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 00:58:17 +1000 2010
+/domains/2
+kBuEl1zVtI2U3CNx8/OCmxAicCY=
+
+test_user vyjteSA9UX1ZGKau97bcQUKCizI=
+
+
+I, [2010-09-05T01:01:41.718895 #30292]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/1
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:01:41 +1000 2010
+  authorization: NWS test_user:RMeTfdbvOhQiOTXunhUgC/t1y8U=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:01:41 +1000 2010
+/domains/1
+KLGmIPM26gx1zjPY0KosOtRaD/Q=
+
+test_user RMeTfdbvOhQiOTXunhUgC/t1y8U=
+
+
+I, [2010-09-05T01:01:43.336240 #30292]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:01:43 +1000 2010
+  authorization: NWS test_user:3EoAfkjd2BsxcOQz27K534W16mw=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:01:43 +1000 2010
+/domains/2
++YFETHsZ5xYyeQrBBX1N8HBM7cM=
+
+test_user 3EoAfkjd2BsxcOQz27K534W16mw=
+
+
+I, [2010-09-05T01:03:46.957134 #30292]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:03:46 +1000 2010
+  authorization: NWS test_user:QnUc5FdUU0BXOc7Qnxe0SGmA+88=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:03:46 +1000 2010
+/domains/2
+2ividEqbbHckS8wuR72iAQ29Q2g=
+
+test_user QnUc5FdUU0BXOc7Qnxe0SGmA+88=
+
+
+I, [2010-09-05T01:17:51.063328 #30557]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:17:51 +1000 2010
+  authorization: NWS test_user:Gdq0O7fHJ+zSKFd3CWpiL5ofZxc=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:17:51 +1000 2010
+/domains/2
+wHlY+mDFxz9wZWRwdbGSKp0ditE=
+
+test_user Gdq0O7fHJ+zSKFd3CWpiL5ofZxc=
+
+
+I, [2010-09-05T01:19:09.977369 #30562]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:19:09 +1000 2010
+  authorization: NWS test_user:bgxZT85ScnjZyL5Otj2oj6A59vo=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:19:09 +1000 2010
+http://localhost:4567/domains/2
+d6wWtcYD0SLMyck0BOrSKar/o+0=
+
+test_user bgxZT85ScnjZyL5Otj2oj6A59vo=
+
+
+I, [2010-09-05T01:21:55.521476 #30571]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:21:55 +1000 2010
+  authorization: NWS test_user:SSKTY6d99cPlR0vtHmsPdzz4zjA=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:21:55 +1000 2010
+http://localhost:4567/domains/2
+AZbLCvFHkJTkxQeuIfiLD7YC1NE=
+
+test_user SSKTY6d99cPlR0vtHmsPdzz4zjA=
+request headers accept*/*, application/jsonconnectionclosedateSun Sep 05 01:21:55 +1000 2010authorizationNWS test_user:SSKTY6d99cPlR0vtHmsPdzz4zjA=versionHTTP/1.1hostlocalhost:4567
+
+
+I, [2010-09-05T01:23:07.678736 #30571]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:23:07 +1000 2010
+  authorization: NWS test_user:LrONKynS68+tQiNXmJxnDNbH0/4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:23:07 +1000 2010
+http://localhost:4567/domains/2
+5sQPk6t1s1Cs9E5OzfqDbFotmq8=
+
+test_user LrONKynS68+tQiNXmJxnDNbH0/4=
+request headers content_hypeapplication/jsonaccept*/*, application/jsonconnectionclosedateSun Sep 05 01:23:07 +1000 2010authorizationNWS test_user:LrONKynS68+tQiNXmJxnDNbH0/4=versionHTTP/1.1hostlocalhost:4567
+
+
+I, [2010-09-05T01:25:00.959618 #30584]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:25:00 +1000 2010
+  authorization: NWS test_user:NjrkPFwAJOrbpL3hmV5x7kl7SB8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:25:00 +1000 2010
+http://localhost:4567/domains/2
+lfEJH224Z/rzi18GZazVc3ykzeY=
+
+test_user NjrkPFwAJOrbpL3hmV5x7kl7SB8=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:25:00 +1000 2010
+authorization=NWS test_user:NjrkPFwAJOrbpL3hmV5x7kl7SB8=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:30:21.877953 #30584]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:30:21 +1000 2010
+  authorization: NWS test_user:GsV8YOKMfjmyMvP8mktE+ffxTaE=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:30:21 +1000 2010
+http://localhost:4567/domains/2
+riDwkZiXn6mIR0xLC6bzVzXmEVc=
+
+test_user GsV8YOKMfjmyMvP8mktE+ffxTaE=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:30:21 +1000 2010
+authorization=NWS test_user:GsV8YOKMfjmyMvP8mktE+ffxTaE=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:33:08.767417 #30584]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:33:08 +1000 2010
+  authorization: NWS test_user:bfSkyRqv9A+ym9fTUel9fsvdlrI=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:33:08 +1000 2010
+http://localhost:4567/domains/2
+4XygnjNYl65SUGQL4pthna5C5MY=
+
+test_user bfSkyRqv9A+ym9fTUel9fsvdlrI=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:33:08 +1000 2010
+authorization=NWS test_user:bfSkyRqv9A+ym9fTUel9fsvdlrI=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:33:55.857168 #30677]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:33:55 +1000 2010
+  authorization: NWS test_user:XIjkOn6pcjoDj58Q+32uFCNM70c=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+get
+
+
+Sun Sep 05 01:33:55 +1000 2010
+http://localhost:4567/domains/2
+jqApRQBchyXJnTgeXXIH4tMiLTM=
+
+test_user XIjkOn6pcjoDj58Q+32uFCNM70c=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:33:55 +1000 2010
+authorization=NWS test_user:XIjkOn6pcjoDj58Q+32uFCNM70c=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:34:43.606916 #30677]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:34:43 +1000 2010
+  authorization: NWS test_user:fhVwzRWVXTe3t8UnH0nMO2liJJA=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+get
+
+
+Sun Sep 05 01:34:43 +1000 2010
+http://localhost:4567/domains/2
+NBoYCP6PayMd0KEqaQbRc2P2iU0=
+
+test_user fhVwzRWVXTe3t8UnH0nMO2liJJA=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:34:43 +1000 2010
+authorization=NWS test_user:fhVwzRWVXTe3t8UnH0nMO2liJJA=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:34:45.596758 #30677]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  content_hype: application/json
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:34:45 +1000 2010
+  authorization: NWS test_user:6d+kPYHllPCpQx6dHl9+fNpvSC4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+put
+
+
+Sun Sep 05 01:34:45 +1000 2010
+http://localhost:4567/domains/2
+ByPus2Q8aGy1dRjYcZFOoYIe+1E=
+
+test_user 6d+kPYHllPCpQx6dHl9+fNpvSC4=
+request headers content_hype=application/json
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:34:45 +1000 2010
+authorization=NWS test_user:6d+kPYHllPCpQx6dHl9+fNpvSC4=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:34:45.597157 #30677]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:38:25.697397 #30677]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:38:25 +1000 2010
+  authorization: NWS test_user:UeBojo4e9XQ20soWc8f5KRzGtv8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+get
+
+
+Sun Sep 05 01:38:25 +1000 2010
+http://localhost:4567/domains/2
+IfxYBxK6j9j2U4N/gTfWg/h641c=
+
+test_user UeBojo4e9XQ20soWc8f5KRzGtv8=
+request headers accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:38:25 +1000 2010
+authorization=NWS test_user:UeBojo4e9XQ20soWc8f5KRzGtv8=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:38:50.867601 #30677]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:38:50 +1000 2010
+  authorization: NWS test_user:S2qVPvQ2hRKH+x9YYnf+qMzyqCY=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+get
+
+
+Sun Sep 05 01:38:50 +1000 2010
+http://localhost:4567/domains/2
+nrpm5KPcZ1G4xfcWnaQuVBmGepw=
+
+test_user S2qVPvQ2hRKH+x9YYnf+qMzyqCY=
+request headers accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:38:50 +1000 2010
+authorization=NWS test_user:S2qVPvQ2hRKH+x9YYnf+qMzyqCY=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:38:52.707530 #30677]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:38:52 +1000 2010
+  authorization: NWS test_user:pG8g55IkY8MHqPCfwdpRlbkTJLo=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+put
+
+
+Sun Sep 05 01:38:52 +1000 2010
+http://localhost:4567/domains/2
+s9NDT4M4dIIWbhni7uwWj/lBBfU=
+
+test_user pG8g55IkY8MHqPCfwdpRlbkTJLo=
+request headers accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:38:52 +1000 2010
+authorization=NWS test_user:pG8g55IkY8MHqPCfwdpRlbkTJLo=
+version=HTTP/1.1
+host=localhost:4567
+
+
+I, [2010-09-05T01:38:52.707950 #30677]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:41:37.161761 #30732]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:41:37 +1000 2010
+  authorization: NWS test_user:kB2YRTB4WVM9CTxiB86DPaWPeLI=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+put
+
+
+Sun Sep 05 01:41:37 +1000 2010
+http://localhost:4567/domains/2
+Yf3cwLvT9BNPVF1TuWCc0tdzywI=
+
+request headers accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:41:37 +1000 2010
+authorization=NWS test_user:kB2YRTB4WVM9CTxiB86DPaWPeLI=
+version=HTTP/1.1
+host=localhost:4567
+env HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x27559c0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:kB2YRTB4WVM9CTxiB86DPaWPeLI=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:41:37 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x40f0cb8>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:41:37.161940 #30732]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:42:32.068154 #30735]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:42:32 +1000 2010
+  authorization: NWS test_user:zTPWwquuyBMCLdnNtDipK5gW6Es=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+put
+
+
+Sun Sep 05 01:42:32 +1000 2010
+http://localhost:4567/domains/2
+nw2Je+0u+l+od4PrpLeNjHWHs4k=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:42:32 +1000 2010
+authorization=NWS test_user:zTPWwquuyBMCLdnNtDipK5gW6Es=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x1c539a0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:zTPWwquuyBMCLdnNtDipK5gW6Es=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:42:32 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x35eebf8>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:42:32.068640 #30735]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:48:52.097765 #30756]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:48:52 +1000 2010
+  authorization: NWS test_user:SG5VJU4Jq7TCKhKcd8W4rakc+zU=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 01:48:52 +1000 2010
+http://localhost:4567/domains/2
+UzHRhut4Gq1VkX1nx4UwxMB7HrM=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:48:52 +1000 2010
+authorization=NWS test_user:SG5VJU4Jq7TCKhKcd8W4rakc+zU=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x265e9b8>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:SG5VJU4Jq7TCKhKcd8W4rakc+zU=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:48:52 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3ff9c10>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:48:52.098326 #30756]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:50:38.967513 #30756]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:50:38 +1000 2010
+  authorization: NWS test_user:StyBwH0b/mbZVS3ZJlxwVeaw7l8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:50:38 +1000 2010
+http://localhost:4567/domains/2
+nPd/lMo2ZoMlyoC5Rj5Q3BPPNLM=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:50:38 +1000 2010
+authorization=NWS test_user:StyBwH0b/mbZVS3ZJlxwVeaw7l8=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x265e9b8>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:StyBwH0b/mbZVS3ZJlxwVeaw7l8=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 01:50:38 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3e752b8>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:50:43.390099 #30756]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:50:43 +1000 2010
+  authorization: NWS test_user:PPAMik7QDTTXEdOVXQPtnkORdbw=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 01:50:43 +1000 2010
+http://localhost:4567/domains/2
+/Bn3RScTG89Zap9dNoZAVoDozbA=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:50:43 +1000 2010
+authorization=NWS test_user:PPAMik7QDTTXEdOVXQPtnkORdbw=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x265e9b8>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:PPAMik7QDTTXEdOVXQPtnkORdbw=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:50:43 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3e62bb8>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:50:43.390470 #30756]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:51:08.011951 #30766]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:51:07 +1000 2010
+  authorization: NWS test_user:EtyQBJCbyEv8Zk64KU+e3LHf3fE=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 01:51:07 +1000 2010
+http://localhost:4567/domains/2
+jUZiGxJK1cAMP93DjFTcdJ/vBz4=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:51:07 +1000 2010
+authorization=NWS test_user:EtyQBJCbyEv8Zk64KU+e3LHf3fE=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x108c9a0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:EtyQBJCbyEv8Zk64KU+e3LHf3fE=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:51:07 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x2a27c98>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:51:08.012155 #30766]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T01:58:49.907816 #30766]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 01:58:49 +1000 2010
+  authorization: NWS test_user:WVQcBz7XmOTwhpqzLWptUSS2VWc=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 01:58:49 +1000 2010
+http://localhost:4567/domains/2
+Z1OG7sV8gwPeU8MLIf8E9dVDPdU=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 01:58:49 +1000 2010
+authorization=NWS test_user:WVQcBz7XmOTwhpqzLWptUSS2VWc=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x108c9a0>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:WVQcBz7XmOTwhpqzLWptUSS2VWc=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 01:58:49 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x28a3340>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:58:52.017612 #30766]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 01:58:52 +1000 2010
+  authorization: NWS test_user:I5jBo0NGkvYVJfiA19JauRw7VMQ=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 01:58:52 +1000 2010
+http://localhost:4567/domains/2
+8EUkp8lIA7V8S2oqDLu/ibGc8Tk=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 01:58:52 +1000 2010
+authorization=NWS test_user:I5jBo0NGkvYVJfiA19JauRw7VMQ=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x108c9a0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:I5jBo0NGkvYVJfiA19JauRw7VMQ=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 01:58:52 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x2890c40>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T01:58:52.017954 #30766]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T02:08:10.019546 #30958]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 02:08:10 +1000 2010
+  authorization: NWS test_user:E5Oel9VTXu9Vwj9z2JUMX1CSUC8=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 02:08:10 +1000 2010
+http://localhost:4567/domains/2
+kVgMM9AaGkAE5fGTwB1L+4DpeEo=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 02:08:10 +1000 2010
+authorization=NWS test_user:E5Oel9VTXu9Vwj9z2JUMX1CSUC8=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:E5Oel9VTXu9Vwj9z2JUMX1CSUC8=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 02:08:10 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3325e30>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:11:29.247619 #30958]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 02:11:29 +1000 2010
+  authorization: NWS test_user:7rYyFcFGZVyFKodg9RHmvYmxsHc=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 02:11:29 +1000 2010
+http://localhost:4567/domains/2
+7YPM+6emcHD4dmI8G3u697NHeb4=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 02:11:29 +1000 2010
+authorization=NWS test_user:7rYyFcFGZVyFKodg9RHmvYmxsHc=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:7rYyFcFGZVyFKodg9RHmvYmxsHc=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 02:11:29 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x31e5228>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:11:31.717787 #30958]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 02:11:31 +1000 2010
+  authorization: NWS test_user:I9g4v5qf2RODmmMVvSZQGQKHQD4=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 02:11:31 +1000 2010
+http://localhost:4567/domains/2
+TrzghoRvjwhnthIIh3VSIp9L2OI=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 02:11:31 +1000 2010
+authorization=NWS test_user:I9g4v5qf2RODmmMVvSZQGQKHQD4=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:I9g4v5qf2RODmmMVvSZQGQKHQD4=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 02:11:31 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x31d3280>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:11:31.718271 #30958]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T02:12:00.456608 #30958]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 02:12:00 +1000 2010
+  authorization: NWS test_user:YALrx2o0gKxjMEafx+4J+U/8N1I=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 02:12:00 +1000 2010
+http://localhost:4567/domains/2
+JwPXgYQW8s/sULT924o39bGAjDw=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 02:12:00 +1000 2010
+authorization=NWS test_user:YALrx2o0gKxjMEafx+4J+U/8N1I=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:YALrx2o0gKxjMEafx+4J+U/8N1I=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 02:12:00 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x317dd08>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:12:03.167463 #30958]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 02:12:03 +1000 2010
+  authorization: NWS test_user:2pFt3+a9Y8JCVnSSTJClQZL+0Co=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 02:12:03 +1000 2010
+http://localhost:4567/domains/2
+RsB5cTSSBTN7h+NcVzUlLlmzsFQ=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 02:12:03 +1000 2010
+authorization=NWS test_user:2pFt3+a9Y8JCVnSSTJClQZL+0Co=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:2pFt3+a9Y8JCVnSSTJClQZL+0Co=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 02:12:03 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x316bdb0>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:12:03.167890 #30958]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T02:12:14.527623 #30958]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 02:12:14 +1000 2010
+  authorization: NWS test_user:tT3/3YrHMvls9n4oKTipv5RoYE0=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+GET
+
+
+Sun Sep 05 02:12:14 +1000 2010
+http://localhost:4567/domains/2
+wc2w0W/JFv6FNNYZr2YicU2iaYs=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 02:12:14 +1000 2010
+authorization=NWS test_user:tT3/3YrHMvls9n4oKTipv5RoYE0=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:tT3/3YrHMvls9n4oKTipv5RoYE0=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 02:12:14 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3144e68>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:12:21.366733 #30958]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 02:12:21 +1000 2010
+  authorization: NWS test_user:Y2FimpahOsQECErUBJnDLnIsASU=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 02:12:21 +1000 2010
+http://localhost:4567/domains/2
+VDwuj9wzR4acGEYI6g1C/9xUiUU=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 02:12:21 +1000 2010
+authorization=NWS test_user:Y2FimpahOsQECErUBJnDLnIsASU=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x19899b8>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:Y2FimpahOsQECErUBJnDLnIsASU=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 02:12:21 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3131ef8>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:12:21.367122 #30958]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T02:13:45.779066 #31021]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 02:13:45 +1000 2010
+  authorization: NWS test_user:O3ctwyzN76cVWQIpAEPPJzQsXGc=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+Request Desc (MD5=68630a2d41ce260f19afaa0bef62386f)
+------------
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 02:13:45 +1000 2010
+http://localhost:4567/domains/2
+
+p8X80lDWIpPs9VcwZHjCrhVsQSo=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 02:13:45 +1000 2010
+authorization=NWS test_user:O3ctwyzN76cVWQIpAEPPJzQsXGc=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x1ece9a0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:O3ctwyzN76cVWQIpAEPPJzQsXGc=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 02:13:45 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x3863640>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:13:45.779273 #31021]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}
+I, [2010-09-05T02:21:09.057731 #31021]  INFO -- : 
+REQUEST
+=======
+Method : GET
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  date: Sun Sep 05 02:21:09 +1000 2010
+  authorization: NWS test_user:TQ76P/2w1BIeqefkko8hS78ax6U=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+
+
+Request Desc (MD5=9d0d5199448026fde145ce1e75de4c35)
+------------
+GET
+
+
+Sun Sep 05 02:21:09 +1000 2010
+http://localhost:4567/domains/2
+
+TQ76P/2w1BIeqefkko8hS78ax6U=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+date=Sun Sep 05 02:21:09 +1000 2010
+authorization=NWS test_user:TQ76P/2w1BIeqefkko8hS78ax6U=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+rack.errors=#<IO:0x1ece9a0>
+SERVER_PROTOCOL=HTTP/1.1
+rack.version=11
+rack.run_once=false
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:TQ76P/2w1BIeqefkko8hS78ax6U=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=GET
+HTTP_DATE=Sun Sep 05 02:21:09 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x36dea68>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:21:13.487641 #31021]  INFO -- : 
+REQUEST
+=======
+Method : PUT
+URI    : /domains/2
+Headers:
+  accept: */*, application/json
+  connection: close
+  content_md5: d66b6bf5e62bb0d4f61f4ccd0855da1a
+  date: Sun Sep 05 02:21:13 +1000 2010
+  authorization: NWS test_user:FWoe25Awr22hYJalmK+Yw4PY1ZA=
+  version: HTTP/1.1
+  host: localhost:4567
+Body:
+{"domain":{"name":"blah","ttl":234311,"created_at":"2010-08-19T14:22:19+10:00","updated_at":"2010-08-30T16:12:53+10:00","id":2,"type":"NATIVE"}}
+
+Request Desc (MD5=bfa96f92e0e5d0126d6e61dbe5f4664d)
+------------
+PUT
+d66b6bf5e62bb0d4f61f4ccd0855da1a
+application/json
+Sun Sep 05 02:21:13 +1000 2010
+http://localhost:4567/domains/2
+
+FWoe25Awr22hYJalmK+Yw4PY1ZA=
+
+request headers 
+---------------
+accept=*/*, application/json
+connection=close
+content_md5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+date=Sun Sep 05 02:21:13 +1000 2010
+authorization=NWS test_user:FWoe25Awr22hYJalmK+Yw4PY1ZA=
+version=HTTP/1.1
+host=localhost:4567
+
+env
+---
+ HTTP_HOST=localhost:4567
+HTTP_ACCEPT=*/*, application/json
+SERVER_NAME=localhost
+REQUEST_PATH=/
+rack.url_scheme=http
+REMOTE_HOST=localhost
+CONTENT_LENGTH=144
+rack.errors=#<IO:0x1ece9a0>
+SERVER_PROTOCOL=HTTP/1.1
+CONTENT_TYPE=application/json
+rack.version=11
+rack.run_once=false
+HTTP_CONTENT_MD5=d66b6bf5e62bb0d4f61f4ccd0855da1a
+SERVER_SOFTWARE=WEBrick/1.3.1 (Ruby/1.8.7/2009-12-24)
+REMOTE_ADDR=127.0.0.1
+PATH_INFO=/domains/2
+HTTP_AUTHORIZATION=NWS test_user:FWoe25Awr22hYJalmK+Yw4PY1ZA=
+SCRIPT_NAME=
+HTTP_VERSION=HTTP/1.1
+rack.multithread=true
+rack.multiprocess=false
+REQUEST_URI=http://localhost:4567/domains/2
+rack.request.query_hash=
+SERVER_PORT=4567
+REQUEST_METHOD=PUT
+HTTP_DATE=Sun Sep 05 02:21:13 +1000 2010
+rack.request.query_string=
+rack.input=#<StringIO:0x36cc098>
+HTTP_CONNECTION=close
+QUERY_STRING=
+GATEWAY_INTERFACE=CGI/1.1
+
+
+I, [2010-09-05T02:21:13.488041 #31021]  INFO -- : {"domain"=>{"name"=>"blah", "created_at"=>"2010-08-19T14:22:19+10:00", "ttl"=>234311, "updated_at"=>"2010-08-30T16:12:53+10:00", "id"=>2, "type"=>"NATIVE"}}

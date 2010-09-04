@@ -31,3 +31,5 @@ module Client
 end
 
 Client.site = "http://localhost:4567"
+Client.username = "test_user"
+Client.apitoken = "foobar"

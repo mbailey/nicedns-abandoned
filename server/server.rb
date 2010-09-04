@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'json'
+require 'logger'
 require 'active_record'
 
 require 'models/domain'
@@ -21,6 +22,9 @@ require 'server/helpers'
 class Server < Sinatra::Base
   helpers Sinatra::ServerHelpers
 
+  set :sessions, false
+  enable :logging
+
   configure do
     LOGGER = Logger.new("sinatra.log") 
   end
@@ -34,26 +38,23 @@ class Server < Sinatra::Base
   )
   ActiveRecord::Base.logger = Logger.new(STDOUT)
 
-  set :sessions, false
-  enable :logging
-
   before do
     puts lookup_user
-    dump_request
+    logger.info dump_request
   end
         
   get '/domains' do
-    jsonize Domain.all
+    Domain.all.to_json
   end
 
   post '/domains' do
     data = parse_body
     domain = Domain.new data['domain']
-    jsonize Domain.all
+    Domain.all
   end
 
   get '/domains/:id' do
-    jsonize Domain.find(params[:id])
+    Domain.find(params[:id]).to_json
     # TODO return error if not found
   end
 
@@ -68,6 +69,7 @@ class Server < Sinatra::Base
       "failed to update domain"
     end 
   end
+
 end
 
 Server.run!

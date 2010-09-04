@@ -7,6 +7,13 @@ TODO
 * create new domains
 * list, view, update, create records
 
+# Zone.find_by_name('uec.').add_a('e1', '192.168.0.205')
+Zone.find_by_name('uec.').add_record('e1', '192.168.0.205')
+Zone.find_by_name('uec.').del_records('e1')
+
+# Web
+show 'login' & 'password' in the fields (godaddy.com)
+
 # Later
 
 * validate requests using redis
