@@ -38,7 +38,7 @@ class Server < Sinatra::Base
   enable :logging
 
   configure do
-    LOGGER = Logger.new("sinatra.log") 
+    LOGGER = Logger.new("log/server.log") 
   end
 
   ActiveRecord::Base.establish_connection(
