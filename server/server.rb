@@ -1,9 +1,10 @@
 $: << '.'
-require 'rubygems'
+
+require 'active_record'
 require 'sinatra/base'
 require 'json'
 require 'logger'
-require 'active_record'
+
 
 require 'models/user'
 require 'models/role'
@@ -24,9 +25,15 @@ require 'server/helpers'
 # user.rb
 # zone_template.rb
 
-
-
 class Server < Sinatra::Base
+
+# setting up our environment
+# env_arg = ARGV.index("-e")
+# env = env_arg || ENV["SINATRA_ENV"] || "development"
+databases = YAML.load_file("config/database.yml")
+# ActiveRecord::Base.establish_connection(databases[env])
+ActiveRecord::Base.establish_connection(databases['test'])
+
   helpers Sinatra::ServerHelpers
 
   set :raise_errors, false
@@ -41,14 +48,14 @@ class Server < Sinatra::Base
     LOGGER = Logger.new("log/server.log") 
   end
 
-  ActiveRecord::Base.establish_connection(
-    :adapter => 'mysql',
-    :database => 'pdns_dev',
-    :host => 'localhost',
-    :username => 'root',
-    :password => ''
-  )
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
+#  ActiveRecord::Base.establish_connection(
+#    :adapter => 'mysql',
+#    :database => 'pdns_dev',
+#    :host => 'localhost',
+#    :username => 'root',
+#    :password => ''
+#  )
+ActiveRecord::Base.logger = Logger.new(STDOUT)
 
   before do
     puts lookup_user

@@ -1,6 +1,13 @@
 development:
-  adaptor:  mysql
+  adapter:  mysql
   database: pdns_dev
+  host:     localhost
+  username: root
+  password: 
+
+test:
+  adapter:  mysql
+  database: pdns_test
   host:     localhost
   username: root
   password: 
