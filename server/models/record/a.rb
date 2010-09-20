@@ -14,5 +14,6 @@ class A < Record
   
   # Only accept valid IPv4 addresses
   validates_format_of :content, :with => /\A(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\z/
+  validates_presence_of :content
   
 end

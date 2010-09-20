@@ -106,11 +106,11 @@ class SOA < Record
     update_serial unless @serial_updated
   end
 
-  def before_validation_with_content
+  def Xbefore_validation_with_content
     self.content = SOA_FIELDS.map { |f| instance_variable_get("@#{f}").to_s  }.join(' ')
     before_validation_without_content
   end
-  alias_method_chain :before_validation, :content
+  # alias_method_chain :before_validation, :content
 
   private
 

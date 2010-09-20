@@ -25,22 +25,22 @@ class User < ActiveRecord::Base
   has_many :zone_templates, :dependent => :nullify
   has_many :audits, :as => :user
   
-  acts_as_state_machine :initial => :active
-  state :active, :enter => :do_activate
-  state :suspended
-  state :deleted, :enter => :do_delete
+  # acts_as_state_machine :initial => :active
+  # state :active, :enter => :do_activate
+  # state :suspended
+  # state :deleted, :enter => :do_delete
 
-  event :suspend do
-    transitions :from => :active, :to => :suspended
-  end
+  # event :suspend do
+  #  transitions :from => :active, :to => :suspended
+  # end
   
-  event :unsuspend do
-    transitions :from => :suspended, :to => :active
-  end
+  # event :unsuspend do
+  #  transitions :from => :suspended, :to => :active
+  # end
   
-  event :delete do
-    transitions :from => [:suspended, :active], :to => :deleted
-  end
+  # event :delete do
+  #  transitions :from => [:suspended, :active], :to => :deleted
+  # end
   
   class << self
     

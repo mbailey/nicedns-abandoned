@@ -66,7 +66,7 @@ class Record < ActiveRecord::Base
   alias_method_chain :to_xml, :cleanup
 
   # Pull in the name & TTL from the domain if missing
-  def before_validation #:nodoc:
+  def fbefore_validation #:nodoc:
     unless self.domain_id.nil?
       append_domain_name!
       self.ttl ||= self.domain.ttl

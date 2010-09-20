@@ -21,10 +21,12 @@ module Sinatra
     end
 
     def lookup_user
-      sig = request_headers['authorization']
-      if sig =~ /^NWS/
-        @access_key, @request_sig = sig.sub('NWS ','').strip.split(':')
-      end
+      # sig = request_headers['authorization']
+      # if sig =~ /^NWS/
+      #   @access_key, @request_sig = sig.sub('NWS ','').strip.split(':')
+      # end
+      @current_user = User.find_by_login 'mike'
+      logger.info "current user #{@current_user.id} #{@current_user.login} #{@current_user.email}"
     end
 
     def request_body
@@ -87,7 +89,7 @@ request headers
 
 env
 ---
- #{ env.collect{|k,v| "#{k}=#{v}" }.join("\n")}
+#{ env.collect{|k,v| "#{k}=#{v}" }.join("\n") && nil}
 
 EOF
     end
