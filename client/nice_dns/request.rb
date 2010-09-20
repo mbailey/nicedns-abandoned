@@ -102,7 +102,7 @@ EOF
 
       headers['authorization'] = "NWS #{Client.username}:#{sign(rest_desc(@method, uri, headers))}"
       puts dump_request(@method, uri, headers, data)
-      puts dump_rest(uri, headers)
+      # puts dump_rest(uri, headers)
 
       http_request = http_class.new(uri.path)
       headers.each{ |k,v| http_request.add_field(k, v) }

@@ -32,4 +32,4 @@ class Point::Zone
 end
 
 
-
+include Point

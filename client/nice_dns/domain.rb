@@ -1,5 +1,9 @@
 module Client
   class Domain < Base
+
+    def initialize (attributes = {})
+      attributes = attributes
+    end
     
     def apply!
       $stderr.puts "Domain information does not need to be applied manually. Client::Domain#apply! method will be deprecated soon."
