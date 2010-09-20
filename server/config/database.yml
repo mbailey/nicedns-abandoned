@@ -1,0 +1,6 @@
+development:
+  adaptor:  mysql
+  database: pdns_dev
+  host:     localhost
+  username: root
+  password: 

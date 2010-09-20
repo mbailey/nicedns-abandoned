@@ -1,0 +1,17 @@
+GEM
+  specs:
+    activerecord (2.3.9)
+      activesupport (= 2.3.9)
+    activesupport (2.3.9)
+    mysql (2.8.1)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (= 2.3.9)
+  mysql (= 2.8.1)
+  sinatra
