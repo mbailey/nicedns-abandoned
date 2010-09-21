@@ -6,13 +6,6 @@ require 'json'
 require 'logger'
 
 
-require 'models/user'
-require 'models/role'
-require 'models/domain'
-require 'models/record'
-require 'models/record/soa'
-require 'models/record/a'
-
 require 'server/helpers'
 
 # auth_token.rb
@@ -27,12 +20,18 @@ require 'server/helpers'
 
 class Server < Sinatra::Base
 
-# setting up our environment
-# env_arg = ARGV.index("-e")
-# env = env_arg || ENV["SINATRA_ENV"] || "development"
-databases = YAML.load_file("config/database.yml")
-# ActiveRecord::Base.establish_connection(databases[env])
-ActiveRecord::Base.establish_connection(databases['test'])
+  # setting up our environment
+  env_arg = ARGV.index("-e")
+  env = env_arg || ENV["SINATRA_ENV"] || ENV["RACKENV"] || "development"
+  databases = YAML.load_file("config/database.yml")
+  ActiveRecord::Base.establish_connection(databases[env])
+
+require 'models/user'
+require 'models/role'
+require 'models/domain'
+require 'models/record'
+require 'models/record/soa'
+require 'models/record/a'
 
   helpers Sinatra::ServerHelpers
 
